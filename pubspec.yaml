@@ -1,6 +1,6 @@
 name: fetch_json_pages
 description: "Using this package you can directly render page which uses json_dynamic_widget"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/shariffriffu/fetch_json_pages
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  json_dynamic_widget: 
+  json_dynamic_widget: ^8.0.0
 
 dev_dependencies:
   flutter_test:
