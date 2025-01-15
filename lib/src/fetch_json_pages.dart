@@ -2,15 +2,15 @@ import 'dart:convert';
 import 'package:json_dynamic_widget/json_dynamic_widget.dart';
 
 
-class renderingPage extends StatefulWidget {
+class RenderingPage extends StatefulWidget {
   final String jsonString;
-  const renderingPage({Key? key,required this.jsonString}) : super(key: key);
+  const RenderingPage({Key? key,required this.jsonString}) : super(key: key);
 
   @override
-  _renderingPageState createState() => _renderingPageState();
+  _RenderingPageState createState() => _RenderingPageState();
 }
 
-class _renderingPageState extends State<renderingPage> {
+class _RenderingPageState extends State<RenderingPage> {
   Map<dynamic, dynamic> mapData = {};
   var registry = JsonWidgetRegistry.instance;
 

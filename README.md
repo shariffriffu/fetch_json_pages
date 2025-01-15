@@ -10,19 +10,10 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
-
+This version is supported for new version 
 Using this package you can directly render page using navigator.push , as input you have to pass json string as shown in the below example
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+##Example
 
 ```dart
 String screen =
