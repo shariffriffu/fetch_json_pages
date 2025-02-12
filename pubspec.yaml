@@ -4,7 +4,7 @@ version: 0.0.2
 homepage: https://github.com/shariffriffu/fetch_json_pages
 
 environment:
-  sdk: ^3.5.4
+  sdk: '>=3.4.4 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
